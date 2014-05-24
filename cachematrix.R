@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## Function to compute the inverse of a matrix at the second call the value is coming
+## from the cache
 
-## Write a short comment describing this function
+## Definition of a class returning a list with attributes and accessors
 
 makeCacheMatrix <- function(x = numeric()) {
   
@@ -23,6 +25,8 @@ makeCacheMatrix <- function(x = numeric()) {
 
 ## Write a short comment describing this function
 # Compute the inverse of a matrix , but first try to get the cache
+## at the second call the value is coming
+## from the cache
 cacheSolve <- function(x, ...) {
   
   ## Return a matrix that is the inverse of 'x'
