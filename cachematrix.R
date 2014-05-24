@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+## cachematrix.R
 ## Function to compute the inverse of a matrix at the second call the value is coming
 ## from the cache
 
