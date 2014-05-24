@@ -31,7 +31,9 @@ cacheSolve <- function(x, ...) {
   
   if(!is.null(m)) {
     message("getting cached data")
-    return(m)
+    ## don't write return(m) to have the value, 
+    ## this is a difference with cache mean ?!
+    m
   }
   
   ## not in the cache, so we compute
